@@ -6,8 +6,8 @@ var getReview = function (movie) {
         return "Cool animation, and funny turtles."
     case "The Lion King":
         return "Great songs."
-
-   
+    default:
+        return "I don't know!"
     }
 
 };
