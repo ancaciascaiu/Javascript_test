@@ -4,8 +4,10 @@ var getReview = function (movie) {
         return  "Great story. Mean prospector."
     case "Finding Nemo":
         return "Cool animation, and funny turtles."
-    
-    
+    case "The Lion King":
+        return "Great songs."
+
+   
     }
 
 };
