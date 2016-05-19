@@ -15,4 +15,12 @@ friends.steve = {
 };
 
 
-
+var search = function(name){
+    for (var key in friends){
+        if (name  === friends[key].firstName){
+            console.log(friends[key]);
+            return friends[key];
+        }
+    }
+};
+search('Steve');
