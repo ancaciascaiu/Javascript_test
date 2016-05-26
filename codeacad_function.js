@@ -14,6 +14,11 @@ friends.steve = {
     address: ['Two Apple Ave', 'Chicago', 'IL', '60052']
 }
 
-
+//console.log(friends)
+function list (a){
+    for (key in a){
+        console.log(key);
+    };
+}
 
 list(friends);
