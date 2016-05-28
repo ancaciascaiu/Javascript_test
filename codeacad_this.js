@@ -6,3 +6,7 @@ var setAge = function (newAge) {
 // now we make bob
 var bob = new Object();
 bob.age = 30;
+
+// and down here we just use the method we already made
+bob.setAge = setAge;
+  
