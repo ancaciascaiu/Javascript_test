@@ -10,3 +10,5 @@ bob.age = 30;
 // and down here we just use the method we already made
 bob.setAge = setAge;
   
+// change bob's age to 50 here
+bob.setAge(50);
