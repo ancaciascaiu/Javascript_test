@@ -8,3 +8,8 @@ var bob = new Object();
 bob.age = 30;
 bob.setAge = setAge;
   
+// make susan here, and first give her an age of 25
+var susan = new Object();
+susan.age = 25;
+susan.setAge = setAge;
+
