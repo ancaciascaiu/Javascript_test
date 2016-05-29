@@ -13,3 +13,5 @@ var susan = new Object();
 susan.age = 25;
 susan.setAge = setAge;
 
+// here, update Susan's age to 35 using the method
+susan.setAge(35);
