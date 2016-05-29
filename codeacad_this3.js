@@ -11,3 +11,6 @@ rectangle.setWidth = function (newWidth){
     this.width = newWidth;
 };
   
+// here change the width to 8 and height to 6 using our new methods
+rectangle.setWidth (8);
+rectangle.setHeight (6);
