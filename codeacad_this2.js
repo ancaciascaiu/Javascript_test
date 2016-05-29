@@ -3,3 +3,8 @@ var setAge = function (newAge) {
   this.age = newAge;
 };
 
+// now we make bob
+var bob = new Object();
+bob.age = 30;
+bob.setAge = setAge;
+  
